@@ -5,5 +5,4 @@ function haha(n) {
   }
 }
 
-let result = haha(10);
-console.log(result);
+haha(10);
