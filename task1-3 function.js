@@ -1,14 +1,5 @@
-let numbers = [34, 88 ,3 , 22, 17];
+const array = [2, 56, 3, 41, 0, 4, 100, 23];
+const sum = array.reduce((sum, current) => current + sum);
+const avg = sum / array.length;
 
-function average(numbers) { 
-
-        sum = 0, 
-        len = numbers.length; 
-    for (let i = 0; i < len; i++) { 
-        sum += numbers[i]; 
-    } 
-  
-    return sum / len;
-}
-
-console.log('Average number is: ' + average(numbers));
+console.log('Average number ' + avg);
